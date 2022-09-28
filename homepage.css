@@ -1,0 +1,149 @@
+body
+{
+    margin: 0px;
+}
+body>div:nth-child(1)
+{ 
+  background-image: url(https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg);
+  width:100%;
+  height:300px;
+  display: flex;
+   flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+body>div>div:nth-child(3)
+{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+body>div>div:nth-child(3)>input
+{
+    height: 30px;
+    width:400px;
+    border: white;
+}
+body>div>div:nth-child(3)>input::placeholder
+{
+    padding-left: 10px;
+}
+body>div>div:nth-child(3)>img{
+    background-color: white;
+    height: 32px;
+    width: 10%;
+    
+    border: 0px;;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+   /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    position: fixed;
+    
+    
+  }
+  .navbar on
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+ .navbar>div>img{
+    margin-left: 10px;
+    height:50px;
+    width:140px;
+ }
+
+ body>div:nth-child(2)
+ {
+    border: 1px solid red;
+    width:80%;
+    margin:auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+ }
+ body>div:nth-child(2) div{
+    width:22%;
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    border: 1px solid blue;
+    margin: auto;
+
+ }
+ body>div:nth-child(2) div a>img
+ {
+    width:100%;
+    height: 100px;
+ }
+ body>div:nth-child(3)
+ {
+   width: 80%;
+   margin: auto;
+   text-align: left;
+ }
+ body>div:nth-child(4)
+ {
+  width:80%;
+  height:auto;
+  border: 1px solid purple;
+  margin: auto;
+ }
+.cards-wrapper
+{
+  display: flex;
+}
+.card-img-top
+{
+  height:200px;
+}
+.card
+{
+  margin : auto;
+  width : 22%;
+}
+body>div:nth-child(5)
+{
+  width: 80%;
+  
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+body>div:nth-child(6)
+ {
+  width:80%;
+  height:auto;
+  border: 1px solid purple;
+  margin: auto;
+ }
+ body>div:nth-child(7)
+{
+  width: 80%;
+  height: auto;
+margin: auto;
+margin-top:30px;
+}
+body>div:nth-child(7)>img{
+  width:100%
+
+}
