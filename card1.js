@@ -87,14 +87,10 @@ var card1data = [
            hoteldesc.innerText=ele.name
 
            let hotelprice=document.createElement("h2")
-            hotelprice.innerText=ele.price
+            hotelprice.innerText="Rs."+ele.price
            let buynow=document.createElement("button")
            buynow.innerText="Buy Now"
-           buynow.style.backgroundColor="white"
-           buynow.style.border="1px solid blue"
-           buynow.style.color="blue"
-           buynow.style.width="100px"
-           buynow.style.height="70px"
+           
             card1container.append(hotelimg,hoteldesc,hotelprice,buynow)
             document.getElementById("card1pagecontainer").append(card1container)
 
