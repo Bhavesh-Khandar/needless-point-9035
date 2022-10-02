@@ -430,9 +430,16 @@ body>div:nth-child(23)>div:nth-child(1) img{
   
 
 }
-body>div:nth-child(23)>div:nth-child(1) img:hover
+body>div:nth-child(23)>div:nth-child(1) i
+{
+ font-size: 20px;
+ line-height: 20px;
+ border-radius: 100%;
+}
+body>div:nth-child(23)>div:nth-child(1) i:hover
 {
   background-color: #2f9bdb;
+  color: white;
 }
 body>div:nth-child(23)>div:nth-child(2)
 {
@@ -457,4 +464,6 @@ body>div:nth-child(23)>div:nth-child(2) h5{
 }
 .navcolor {
   background-color: #2f9bdb;
+  
 }
+
