@@ -236,3 +236,6 @@ body>div:nth-child(5)>div:nth-child(2) h5{
   line-height: 18px;
   color: #333333;
 }
+.navcolor {
+  background-color: #2f9bdb;
+}

@@ -9,3 +9,8 @@ window.onscroll=() =>
         nav.classList.remove('navcolor')
     }
 }
+
+function openvideo()
+{
+    
+}
